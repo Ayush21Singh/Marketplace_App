@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "342034158875",
+    "project_id": "anaaj-5c916",
+    "storage_bucket": "anaaj-5c916.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342034158875:android:bd231084d29a9f2edf2fbe",
+        "android_client_info": {
+          "package_name": "com.example.shopkart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342034158875-iv9au8agq6avtbr5qulrlt21ioicuifu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHgFAl9aKL4IW1RKrxqek5NCSJP3yvCmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342034158875-iv9au8agq6avtbr5qulrlt21ioicuifu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

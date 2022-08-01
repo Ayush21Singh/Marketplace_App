@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.shopkart.ui.fragments.profile.ProfileFragment"
+        android:label="@string/text_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.shopkart.ui.fragments.dashboard.DashboardFragment"
+        android:label="@string/text_dashboard"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_cartListFragment"
+            app:destination="@id/cartListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/orderFragment"
+        android:name="com.example.shopkart.ui.fragments.order.OrderFragment"
+        android:label="@string/text_order"
+        tools:layout="@layout/fragment_order">
+        <action
+            android:id="@+id/action_orderFragment_to_orderDetailFragment"
+            app:destination="@id/orderDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.example.shopkart.ui.fragments.product.ProductFragment"
+        android:label="@string/text_product"
+        tools:layout="@layout/fragment_product">
+        <action
+            android:id="@+id/action_productFragment_to_addProductFragment"
+            app:destination="@id/addProductFragment" />
+        <action
+            android:id="@+id/action_productFragment_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.example.shopkart.ui.fragments.product_detail.ProductDetailFragment"
+        android:label="@string/title_product_details" >
+        <argument
+            android:name="productId"
+            app:argType="string" />
+        <argument
+            android:name="productOwnerId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_productDetailFragment_to_cartListFragment"
+            app:destination="@id/cartListFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/settingFragment"
+        android:label="@string/text_settings"
+        android:name="com.example.shopkart.ui.fragments.settings.SettingFragment"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_settingFragment_to_addressFragment"
+            app:destination="@id/addressFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addProductFragment"
+        android:name="com.example.shopkart.ui.fragments.add_product.AddProductFragment"
+        android:label="@string/title_add_product"
+        tools:layout="@layout/fragment_add_product"/>
+
+    <fragment
+        android:id="@+id/cartListFragment"
+        android:name="com.example.shopkart.ui.fragments.cart.CartListFragment"
+        android:label="@string/text_cart"
+        tools:layout="@layout/fragment_cart_list">
+        <action
+            android:id="@+id/action_cartListFragment_to_addressFragment"
+            app:destination="@id/addressFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addressFragment"
+        android:name="com.example.shopkart.ui.fragments.my_address.MyAddressFragment"
+        android:label="@string/title_my_address"
+        tools:layout="@layout/fragment_my_address">
+        <action
+            android:id="@+id/action_addressFragment_to_addressDetailFragment"
+            app:destination="@id/addressDetailFragment" />
+        <action
+            android:id="@+id/action_addressFragment_to_checkoutFragment"
+            app:destination="@id/checkoutFragment" />
+        <argument
+            android:name="selectAddress"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addressDetailFragment"
+        android:name="com.example.shopkart.ui.fragments.address_detail.AddressDetailFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_address_detail" >
+        <argument
+            android:name="address"
+            app:argType="com.example.shopkart.data.model.Address"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="Address Detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/checkoutFragment"
+        android:name="com.example.shopkart.ui.fragments.checkout.CheckoutFragment"
+        android:label="@string/title_checkout"
+        tools:layout="@layout/fragment_checkout">
+
+        <argument
+            android:name="address"
+            app:argType="com.example.shopkart.data.model.Address" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/orderDetailFragment"
+        android:name="com.example.shopkart.ui.fragments.order_detail.OrderDetailFragment"
+        android:label="@string/title_order_detail" >
+        <argument
+            android:name="order"
+            app:argType="com.example.shopkart.data.model.Order" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/soldProductFragment"
+        android:name="com.example.shopkart.ui.fragments.sold_product.SoldProductFragment"
+        android:label="@string/title_sold_products"
+        tools:layout="@layout/fragment_sold_product">
+        <action
+            android:id="@+id/action_soldProductFragment_to_soldProductDetailFragment"
+            app:destination="@id/soldProductDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/soldProductDetailFragment"
+        android:name="com.example.shopkart.ui.fragments.sold_prouct_detail.SoldProductDetailFragment"
+        android:label="@string/title_sold_product_detail"
+        tools:layout="@layout/fragment_sold_product_detail">
+        <argument
+            android:name="product"
+            app:argType="com.example.shopkart.data.model.SoldProduct" />
+    </fragment>
+
+
+    <action
+        android:id="@+id/action_global_profileFragment"
+        app:destination="@id/profileFragment" />
+
+    <action
+        android:id="@+id/action_global_settingFragment"
+        app:destination="@id/settingFragment" />
+
+    <action
+        android:id="@+id/action_global_dashboard"
+        app:destination="@id/dashboardFragment" />
+
+</navigation>

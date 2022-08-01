@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":app:unitTest" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/tmp/kotlin-classes/debugUnitTest" />
+          <option name="classpath" value="$MODULE_DIR$/../../build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/59700a3f7d8414d9b8ec0ae467d49b6c/transformed/databinding-runtime-7.0.2-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/76ece56215792ea2c4512c0154116f27/transformed/jetified-viewbinding-7.0.2-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/9a374ba147b91c9c37287876e80e0ce9/transformed/databinding-adapters-7.0.2-api.jar;D:/ShopKart-master/app/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/7.0.2/c604c89b40fc98b2c4f7152119e79c62d498cc38/databinding-common-7.0.2.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/8ca977cc85572f566abe8674a4db068a/transformed/jetified-databinding-ktx-7.0.2-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/f49f17d3ac23a23e835a0f7814177427/transformed/jetified-kotlin-parcelize-runtime-1.5.21.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/9c635abc6f0671a04cfeeb61edc7f10b/transformed/navigation-fragment-ktx-2.3.5-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/fb4a96bc37b103906ede274bc465a033/transformed/navigation-ui-ktx-2.3.5-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/9c9efc131cc91825710b9c05e9acb05f/transformed/navigation-runtime-ktx-2.3.5-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/915d08c1a192d4ae8dd8960d04ef6d6d/transformed/jetified-fragment-ktx-1.2.4-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/c87980c9cf171703f1ca0ee098ea0b49/transformed/jetified-activity-ktx-1.3.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/c28f5bdb608dc6e8b7974643e244eb0f/transformed/jetified-core-ktx-1.6.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/f5174a4a47f8fcd3c5d8963d4bfcb123/transformed/jetified-lifecycle-livedata-ktx-2.3.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/ba28fd34e094cf5a6fb73e71b54a4a15/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0-rc01-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/9977b7b09a222dd3b01f16074cd6a986/transformed/jetified-lifecycle-runtime-ktx-2.4.0-rc01-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/332147c61b1907cef18c126144e880ec/transformed/jetified-kotlin-android-extensions-runtime-1.5.21.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/87018be59327a1c608de7bb384d6724f/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/5372d8dcabd58ae3aa450e6f14be7221/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.0.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/a432ed87cf5e74b61714bff1f0677919/transformed/jetified-kotlinx-coroutines-android-1.6.0.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/1cc000650c8a11742d12c4a290f3b4f0/transformed/jetified-kotlin-stdlib-jdk8-1.6.0.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/ba5a1c8b8c020eb337e8a4c12ddb131a/transformed/jetified-hilt-android-2.38.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/be2670fe214f6826b3c3f2ae964b0b26/transformed/lifecycle-extensions-2.2.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/13e535e8fee09867b677d6db5df99c19/transformed/navigation-ui-2.3.5-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/0bceaa142b1c5e3446289540c43b5ad2/transformed/material-1.4.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/d8f33c00298e5179f6e0632732944892/transformed/constraintlayout-2.0.4-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/3c92a977724db9ee03f5d95e49bfaf9a/transformed/appcompat-1.3.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/0eaa99edebd7a89af0a26bce0be729bb/transformed/legacy-support-v4-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/727e4817c08a879ec77eb595cb524e7f/transformed/jetified-firebase-auth-21.0.6-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/745632a1b68e4e9fcdb61e1228d50c15/transformed/jetified-glide-4.12.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/beb77ec0549b44a600ffd2b79df20556/transformed/jetified-viewpager2-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/393ce16e25bbe2a70f457d4aef3b6a14/transformed/jetified-firebase-firestore-ktx-24.2.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/a171b087512865ea30ac5451dd3f5331/transformed/jetified-firebase-storage-20.0.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/60749c3aba4144398578dd21015b9609/transformed/jetified-firebase-analytics-ktx-21.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/cf7a77cfe63915dc979c4e3c3374ef32/transformed/jetified-firebase-firestore-24.2.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/1818a2351fa6bda82c859458e3afa15c/transformed/jetified-firebase-auth-interop-20.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/429d6bc1c2d4072aa25825bafd3ff67d/transformed/jetified-firebase-common-ktx-20.1.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/b8499f195a6d7cab98033e04e5065c1a/transformed/jetified-firebase-appcheck-interop-16.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/d0304c7d9eac4c68ec1757d1b1a9a26d/transformed/jetified-firebase-analytics-21.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/481fd464179e94d230a2ae779626cf03/transformed/jetified-play-services-measurement-api-21.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/dd9b1c797ee6fac17b8dd0a8077e4339/transformed/jetified-firebase-installations-17.0.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/e1a9b6bf0f3c1a868df8328858c2a298/transformed/jetified-firebase-common-20.1.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/b428be9129eb2e4d498cadb4373b5e40/transformed/jetified-play-services-auth-api-phone-17.4.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/48118286a989657944d1ed0527cc91f4/transformed/jetified-play-services-safetynet-17.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/a1710f3b125e1f6a798308cb964f73d1/transformed/jetified-firebase-database-collection-18.0.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/b1e2b9abee88c858e4a3dbd2919ba5fc/transformed/jetified-play-services-base-18.0.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/b1b298cbdbda883d231046987843f4b3/transformed/jetified-firebase-installations-interop-17.0.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/3cf9855fccaad4101334516cb2ad0614/transformed/jetified-play-services-tasks-18.0.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/25d7b85de06708d83e6ab0599102faa5/transformed/jetified-play-services-measurement-21.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/80bb5bc1cfceb7d4bbae3a3ed7e7e901/transformed/jetified-play-services-measurement-sdk-21.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/bfc08259ba5c6f06ad1708a91b8d2c1f/transformed/jetified-play-services-measurement-impl-21.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/6f5e4b29987a780fc21bc3aa253b21e2/transformed/jetified-play-services-ads-identifier-18.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/50f2787821981099a9479ea45d92f4c8/transformed/jetified-play-services-measurement-sdk-api-21.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/0ff1797def342b1b3ca321d608814304/transformed/jetified-play-services-measurement-base-21.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/68d26131269b3dfd86e9179350c0757d/transformed/jetified-play-services-stats-17.0.2-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/ff1dcec208495bbfe413824e51c56765/transformed/jetified-firebase-measurement-connector-19.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/7bd3c037be4e988f288cabfef25ca0c4/transformed/jetified-play-services-basement-18.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/be4fb7e47f3dd2483c66f8e7983fa3f2/transformed/navigation-fragment-2.3.5-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/96e9500922522d739634560b9858a8fb/transformed/fragment-1.3.4-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/715b4789f0c29a6a205e4bcfb7e69b6e/transformed/navigation-runtime-2.3.5-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/a62a784d833929ef4bfc2402af79e6f9/transformed/jetified-activity-1.3.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/e5e7620ea32f1bfc14cb911da5e4f45e/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/d8e7ea1085718b9e83f410976a8b98dd/transformed/dynamicanimation-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/91b476f76f21a0640938b5fead2d1ff3/transformed/legacy-support-core-ui-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/d18b007a1ccc346a0d084a867e114d89/transformed/legacy-support-core-utils-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/4b4a5828892a263c7cdfa0d696ea87e7/transformed/loader-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/69343dc7abeddcaf75efa310530a3512/transformed/lifecycle-viewmodel-2.4.0-rc01-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/b702d7eb18baa27403f3b161bd5752ea/transformed/jetified-savedstate-ktx-1.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/7669aabb6922a9faddbb6cc58da74cde/transformed/jetified-kotlin-stdlib-jdk7-1.6.0.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/0240237b30f1b12fb6d07d2d9ca7ada4/transformed/jetified-kotlinx-serialization-json-jvm-1.3.2.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/9bc5027d87e5ff0b8e3bebb126ce1f95/transformed/navigation-common-ktx-2.3.5-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/02783d4b1f5dcdaff5c3d3a82b760823/transformed/jetified-collection-ktx-1.1.0.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/30118b2e77e5c72dae038425b5706f11/transformed/jetified-kotlinx-serialization-core-jvm-1.3.2.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/ecb04e706dd8fb13b55a01cf6bdc6fad/transformed/jetified-kotlin-stdlib-1.6.10.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/e2c14fe22e8820ebbfc873a918e952e5/transformed/jetified-annotations-13.0.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/7cb4a4d29f2e0dcb42729552d2c0b81b/transformed/jetified-kotlin-stdlib-common-1.6.10.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/3f5934e941a4ca00316e5a58c292db67/transformed/jetified-junit-4.13.2.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/c1ed2f170df81bd0bff4e3d46e496fe0/transformed/jetified-hamcrest-core-1.3.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/60a1efed6eb1e0e9446a1d26a9c6bd44/transformed/jetified-appcompat-resources-1.3.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/43ed9d7ee8004635fc8ea83e8840d92b/transformed/drawerlayout-1.1.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/15f560ca944893d6d1dfe371df44cb06/transformed/coordinatorlayout-1.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/c90cbbca2a6b100bfce3d912af1d41f2/transformed/recyclerview-1.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/2f45b6dcc49d5b789b744e681b9ce20d/transformed/transition-1.3.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/1b2e5b43612c0fc78168d9e7654aaa95/transformed/vectordrawable-animated-1.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/858f29d5272d0be970d4a655bc9ffdd9/transformed/vectordrawable-1.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/c60732ebd807ea6c39386a645c069fb2/transformed/media-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/5b6fd11bf7961f7908ed4371a840553d/transformed/browser-1.4.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/43f77a44635b031fa7c44f2dc4ac0f94/transformed/viewpager-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/98158cd670fa4c6a9a9443bc6bc02054/transformed/slidingpanelayout-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/c4a8038137e9e9d555c30ec80d012c2f/transformed/customview-1.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/123b4cd896f0bb342fb487af7c7fd30e/transformed/swiperefreshlayout-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/d8898c61285b624604229a813f8fb56b/transformed/asynclayoutinflater-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/adecfd8abf84fc8bbf83b7f312ea778d/transformed/core-1.6.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/6d51ef0508921953c542fcaefebe7cd6/transformed/jetified-lifecycle-process-2.2.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/017153704c54f4fc107e55fbcebc5763/transformed/jetified-lifecycle-service-2.2.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/b26323d8e7b18d861a94cb66088ad752/transformed/lifecycle-runtime-2.4.0-rc01-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/8e37524f6c89265d9d6209747700c806/transformed/cursoradapter-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/41ade437211abce9f34c081ef7c636c2/transformed/jetified-savedstate-1.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/eb7e91376414f78bba480f23491ffff5/transformed/cardview-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/4252ba06788129cd524c439a4505623f/transformed/lifecycle-livedata-2.3.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/547eeba14790c910531f391242cf00f6/transformed/lifecycle-livedata-core-2.3.1-api.jar;D:/ShopKart-master/app/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.4.0-rc01/1fdb7349701e9cf2f0a69fc10642b6fef6bb3e12/lifecycle-common-2.4.0-rc01.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/7cd2d6673c08b84ec269481819fcf7d1/transformed/versionedparcelable-1.1.1-api.jar;D:/ShopKart-master/app/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/37414361ecf13d7ce89114d929f10970/transformed/localbroadcastmanager-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/27f4f36fd39b973a741930fb88328f08/transformed/jetified-firebase-components-17.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/eb9b8143bc02758f54be36db28e1b681/transformed/jetified-gifdecoder-4.12.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/745543dd9e4e9263922315ac5e47acf0/transformed/exifinterface-1.2.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/d8b3085c0af5aeec7a587094d8a233fe/transformed/core-runtime-2.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/3779cfe648259b15e83b707a50e1fab6/transformed/documentfile-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/70ae29908aaff1395e063fe0d52b2c01/transformed/print-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/1365750bb30ac482dca6253e6021d45f/transformed/interpolator-1.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/d72af84b3f17c92314340f037777c936/transformed/navigation-common-2.3.5-api.jar;D:/ShopKart-master/app/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/694107f13b6ca5d11f91256783e61320/transformed/jetified-annotation-experimental-1.1.0-api.jar;D:/ShopKart-master/app/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.4/1f001d7db280a89a6c26b26a66eb064bb6d5efeb/constraintlayout-solver-2.0.4.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/32cf18b4d8f743025166aea8d4dc643c/transformed/jetified-hilt-core-2.38.1.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/223c7f2021b903e9399e1848352f8ca7/transformed/jetified-dagger-2.38.1.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/a6f54aa71b9faf04d868dbfaa9e86ac9/transformed/jetified-javax.inject-1.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/e3732e15b40401444b8a93ddc24b33aa/transformed/jetified-dagger-lint-aar-2.38.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/55a6ebf547202614e2a087cd060ed5c2/transformed/jetified-grpc-protobuf-lite-1.44.1.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/105f536f95abfa9a16043dd655af3f12/transformed/jetified-grpc-stub-1.44.1.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/bf91384089f84c61c417a202923faf32/transformed/jetified-grpc-android-1.44.1-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/4e57824f64eadf47cff21b3dcf0a67de/transformed/jetified-grpc-okhttp-1.44.1.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/aa628bfe87d6668a812ac5806a275ba5/transformed/jetified-grpc-core-1.44.1.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/4fa393781bd08449839975aba41d35f0/transformed/jetified-grpc-api-1.44.1.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/5301ce240767253cb15cf6e18b447d97/transformed/jetified-guava-30.1.1-android.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/3ebd611408c6f60c1b3b18ff6a7be4e5/transformed/jetified-jsr305-3.0.2.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/bdf2d5c62dc534716b39d19fbd9b0c66/transformed/jetified-listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/3db8d9906f51dc845d3b790d64a1adcb/transformed/jetified-firebase-annotations-16.1.0.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/91245adca44d7e16fc69d29d8e0fdec9/transformed/jetified-protolite-well-known-types-18.0.0-api.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/5a618c11cdb466046d5e1acbb2025341/transformed/jetified-protobuf-javalite-3.19.2.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/d7ee5f62ca1bbe1dedf454815c70e38e/transformed/jetified-okhttp-2.7.5.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/952c827b3308604ef111b777ca533f30/transformed/jetified-okio-1.17.5.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/31a3399545544610a95c65c77804ad3f/transformed/jetified-grpc-context-1.44.1.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/83aa515d9b3b1ae1e6547a2c44e4581d/transformed/jetified-failureaccess-1.0.1.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/5b84391f0575641ddc23c702c36da587/transformed/jetified-checker-compat-qual-2.5.5.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/fa2abfcef068dc5a0bef8e0a2e5a8ebb/transformed/jetified-error_prone_annotations-2.9.0.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/67c0ecbb9062b6d4f3862e4c7c703d7a/transformed/jetified-j2objc-annotations-1.3.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/c9e815f9c16613aca9863302e761702d/transformed/jetified-disklrucache-4.12.0.jar;D:/ShopKart-master/app/.gradle/caches/transforms-3/9b7b03be0061004cf033f5a8f5cea4bc/transformed/jetified-annotations-4.12.0.jar;C:/Users/USER/AppData/Local/Android/Sdk/platforms/android-31/android.jar;C:/Users/USER/AppData/Local/Android/Sdk/build-tools/30.0.2/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="app_debug" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="friendPaths">
+            <array>
+              <option value="$MODULE_DIR$/../../build/tmp/kotlin-classes/debug" />
+              <option value="$MODULE_DIR$/../../build/intermediates/javac/debug/classes" />
+              <option value="$MODULE_DIR$/../../build/tmp/kapt3/classes/debug" />
+              <option value="$MODULE_DIR$/../../build/intermediates/app_classes/debug/classes.jar" />
+            </array>
+          </option>
+          <option name="languageVersion" value="1.5" />
+          <option name="apiVersion" value="1.5" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$MODULE_DIR$/../../.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar" />
+              <option value="$MODULE_DIR$/../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.5.21/40ddbcae9ff100473f95370c2d589ba3fc48eed5/kotlin-compiler-embeddable-1.5.21.jar" />
+              <option value="$MODULE_DIR$/../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.5.21/17255809e66a940dfdf6289bccbdfb5a09f3145/kotlin-daemon-embeddable-1.5.21.jar" />
+              <option value="$MODULE_DIR$/../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-parcelize-compiler/1.5.21/34bdb5e5f2c0b90b20f048e7da47a7e65a0f6bf/kotlin-parcelize-compiler-1.5.21.jar" />
+              <option value="$MODULE_DIR$/../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.5.21/802f1f39735ae1eb2b75714a40fa19bb2e687e96/kotlin-reflect-1.5.21.jar" />
+              <option value="$MODULE_DIR$/../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.5.21/96d49e89873fde985750af354b6eabb60cfa999b/kotlin-script-runtime-1.5.21.jar" />
+              <option value="$MODULE_DIR$/../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.21/cc8bf3586fd2ebcf234058b9440bb406e62dfacb/kotlin-stdlib-common-1.5.21.jar" />
+              <option value="$MODULE_DIR$/../../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.5.21/2f537cad7e9eeb9da73738c8812e1e4cf9b62e4e/kotlin-stdlib-1.5.21.jar" />
+              <option value="$MODULE_DIR$/../../.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../src/main/res;file://$MODULE_DIR$/../../src/debug/res;file://$MODULE_DIR$/../../build/generated/res/google-services/debug;file://$MODULE_DIR$/../../build/generated/res/rs/debug;file://$MODULE_DIR$/../../build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../src/androidTest/res;file://$MODULE_DIR$/../../src/androidTestDebug/res;file://$MODULE_DIR$/../../build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../build/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../build/generated/ap_generated_sources/debugUnitTest/out" />
+    <content url="file://$MODULE_DIR$/../../build/generated/source/kapt/debugUnitTest" />
+    <content url="file://$MODULE_DIR$/../../build/generated/source/kaptKotlin/debugUnitTest" />
+    <content url="file://$MODULE_DIR$/../../src/test" />
+    <content url="file://$MODULE_DIR$/../../src/testDebug" />
+    <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="ShopKart.app.main" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:databinding-common:7.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-parcelize-runtime:1.5.21" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.21" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.3.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection-ktx:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.3.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.13.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-common:2.4.0-rc01" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout-solver:2.0.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.dagger:hilt-core:2.38.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.dagger:dagger:2.38.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-protobuf-lite:1.44.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-stub:1.44.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-okhttp:1.44.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-core:1.44.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-api:1.44.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:guava:30.1.1-android" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-annotations:16.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.protobuf:protobuf-javalite:3.19.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp:okhttp:2.7.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio:1.17.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-context:1.44.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.checkerframework:checker-compat-qual:2.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.errorprone:error_prone_annotations:2.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:disklrucache:4.12.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:annotations:4.12.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:databinding-runtime:7.0.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:viewbinding:7.0.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:databinding-adapters:7.0.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:databinding-ktx:7.0.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-fragment-ktx:2.3.5@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-ui-ktx:2.3.5@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-runtime-ktx:2.3.5@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment-ktx:1.2.4@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity-ktx:1.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core-ktx:1.6.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-ktx:2.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0-rc01@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.4.0-rc01@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.dagger:hilt-android:2.38.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-extensions:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-ui:2.3.5@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.material:material:1.4.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout:2.0.4@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.appcompat:appcompat:1.3.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-v4:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-auth:21.0.6@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:glide:4.12.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-firestore-ktx:24.2.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-storage:20.0.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-analytics-ktx:21.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-firestore:24.2.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-auth-interop:20.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-common-ktx:20.1.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-appcheck-interop:16.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-analytics:21.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement-api:21.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-installations:17.0.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-common:20.1.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth-api-phone:17.4.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-safetynet:17.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-database-collection:18.0.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-base:18.0.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-installations-interop:17.0.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-tasks:18.0.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement:21.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement-sdk:21.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement-impl:21.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-ads-identifier:18.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement-sdk-api:21.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement-base:21.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-stats:17.0.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-measurement-connector:19.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-basement:18.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-fragment:2.3.5@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment:1.3.4@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-runtime:2.3.5@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity:1.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.dynamicanimation:dynamicanimation:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.4.0-rc01@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.savedstate:savedstate-ktx:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common-ktx:2.3.5@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.appcompat:appcompat-resources:1.3.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.drawerlayout:drawerlayout:1.1.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.recyclerview:recyclerview:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.transition:transition:1.3.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.media:media:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.browser:browser:1.4.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.customview:customview:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core:1.6.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-process:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-service:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.4.0-rc01@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.savedstate:savedstate:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.cardview:cardview:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-components:17.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:gifdecoder:4.12.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.exifinterface:exifinterface:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common:2.3.5@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation-experimental:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.dagger:dagger-lint-aar:2.38.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-android:1.44.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:protolite-well-known-types:18.0.0@aar" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="ShopKart.app.main" />
+</module>
