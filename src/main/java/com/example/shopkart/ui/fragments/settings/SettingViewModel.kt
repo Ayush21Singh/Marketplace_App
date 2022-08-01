@@ -11,9 +11,8 @@ import com.example.shopkart.util.ObservableString
 import com.example.shopkart.util.SharePreferenceUtil
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
-
 /**
- * Created by Dhruv Limbachiya on 26-10-2021.
+ * Created By Ayush
  */
 @HiltViewModel
 class SettingViewModel @Inject constructor(

@@ -9,7 +9,7 @@ import com.example.shopkart.data.model.Address
 import com.example.shopkart.databinding.LayoutAddressItemBinding
 
 /**
- * Created By Dhruv Limbachiya on 10-11-2021 09:46 AM.
+ * Created By Ayush
  */
 class AddressListAdapter :
     ListAdapter<Address, AddressListAdapter.AddressViewHolder>(AddressDiffCallback()) {

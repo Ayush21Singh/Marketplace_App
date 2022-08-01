@@ -21,7 +21,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
 /**
- * Created By Dhruv Limbachiya on 24-11-2021 11:14 AM.
+ * Created By Ayush
  */
 @AndroidEntryPoint
 class SoldProductFragment : BaseFragment() {

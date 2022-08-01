@@ -18,7 +18,7 @@ import com.example.shopkart.util.showSnackBar
 import dagger.hilt.android.AndroidEntryPoint
 
 /**
- * Created by Dhruv Limbachiya on 26-10-2021.
+ * Created By Ayush
  */
 
 @AndroidEntryPoint

@@ -9,7 +9,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 /**
- * Created By Dhruv Limbachiya on 14-10-2021 14:30.
+ * Created By Ayush
  */
 @HiltViewModel
 class ForgotPasswordViewModel @Inject constructor(

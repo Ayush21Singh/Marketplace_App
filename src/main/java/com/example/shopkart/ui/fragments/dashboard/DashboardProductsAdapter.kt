@@ -9,7 +9,7 @@ import com.example.shopkart.databinding.LayoutDashboardItemBinding
 import com.example.shopkart.ui.fragments.product.ProductDiffCallback
 
 /**
- * Created by Dhruv Limbachiya on 29-10-2021.
+ * Created By Ayush
  */
 class DashboardProductsAdapter : ListAdapter<Product, DashboardProductsAdapter.DashboardViewHolder>(
     ProductDiffCallback()

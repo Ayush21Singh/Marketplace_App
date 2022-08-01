@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 
 /**
- * Created By Dhruv Limbachiya on 10-11-2021 11:41 AM.
+ * Created By Ayush
  */
 abstract class SwipeGestureCallback(private val icon: Drawable, private val direction: Int) : ItemTouchHelper.SimpleCallback(0, direction) {
 

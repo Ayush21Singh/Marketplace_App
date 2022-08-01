@@ -13,7 +13,7 @@ import com.example.shopkart.data.model.CartItem
 import com.example.shopkart.databinding.LayoutCartItemBinding
 
 /**
- * Created By Dhruv Limbachiya on 03-11-2021 19:34.
+ * Created By Ayush
  */
 class CartListAdapter :
     ListAdapter<CartItem, CartListAdapter.CartListViewHolder>(CartItemDiffCallback()) {

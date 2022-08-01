@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import com.example.shopkart.util.Resource
 
 /**
- * Created By Dhruv Limbachiya on 13-10-2021 18:46.
+ * Created By Ayush
  */
 open class BaseViewModel : ViewModel() {
     var _status = MutableLiveData<Resource<String>>()

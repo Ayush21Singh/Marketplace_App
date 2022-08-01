@@ -11,7 +11,7 @@ import com.example.shopkart.data.model.SoldProduct
 import com.example.shopkart.databinding.LayoutSoldProductItemBinding
 
 /**
- * Created By Dhruv Limbachiya on 23-11-2021 11:52 AM.
+ * Created By Ayush
  */
 class SoldProductListAdapter :
     ListAdapter<SoldProduct, SoldProductListAdapter.SoldProductListViewHolder>(
